@@ -51,37 +51,37 @@
 <template>
     <v-card
     class="mx-auto"
-    width="1300"
-    height="500"
+    width="1400"
+    height="530"
   >
     <v-carousel>
   <v-carousel-item
-    src="./images/customerbox-aXq1oCCjlVM-unsplash copy.jpg"
+    src="/images/AdobeStock_637074878_Preview_Editorial_Use_Only.jpeg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="./images/vinicius-amnx-amano-dbOV1qSiL-c-unsplash copy.jpg"
+    src="/images/joe-green-Olp-XSVq4Nw-unsplash.jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="./images/jamie-albright-AHF_ZktTL6Q-unsplash copy.jpg"
+    src="/images/niranjan-_-photographs-CFnpncwCbIk-unsplash.jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="./images/julissa-capdevilla-tDoHiqXl9b8-unsplash.jpg"
+    src="/images/t-syarifudin-budiana-Rp0nULxTAyI-unsplash.jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="./images/american-heritage-chocolate-vdx5hPQhXFk-unsplash.jpg"
+    src="/images/alex-baber-et3asHnfrtc-unsplash.jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="./images/alexandra-nosova-lpv--JSLa58-unsplash.jpg"
+    src="/images/ahmed-sheraz-PGYu3lZ4Xik-unsplash.jpg"
     cover
   ></v-carousel-item>
 
@@ -89,15 +89,14 @@
   </v-card>
   <v-card align="center">
         <v-card-item>
-          <v-card-title>Welcome to Camel Shop</v-card-title>
-          <v-card-subtitle>The no.1 candy store </v-card-subtitle>
+          <v-card-title>Welcome to YashicaKE store</v-card-title>
+          <v-card-subtitle>The authentic vintage cameras store </v-card-subtitle>
        </v-card-item>
         <v-card-text>
-            Experience the perfect blend of flavors and satisfy your sweet tooth with us today!
-            Welcome to our delightful candy store app, where the art of confectionery meets the magic of imagination!
-             Step into a world of wonder and delight as you explore our enchanting assortment of handcrafted candies, delectable treats, and other irresistible sweets.
-              Whether you’re a candy connoisseur, a sweet tooth enthusiast, or simply someone who appreciates the beauty of the little things, our app has something for everyone.
-               Come visit us today and indulge in a world of pure delight!
+          Capture life's moments with clarity and precision using our intuitive old school cameras. 
+          Discover a wide range of vintage film cameras, lenses,films and accessories to elevate your  film photography game.
+           Whether you're a professional or a beginner, our app offers expert advice, manuals, and personalized recommendations 
+           to help you unleash your creativity.Begin the journey of transforming  your photography experience with film photography.
         </v-card-text>
       </v-card>
 
@@ -108,50 +107,43 @@
       <h3 class="text-center">What our customers say</h3>
       <v-divider></v-divider>
 
-      <v-row>
-    <v-col cols="12" md="4">
+      <v-col>
+        <v-col cols="12" md="12">
       <v-card
         subtitle="@Taylor Kendi"
-        text="Very patient and kind attendant!Loved the experience"
+        text="Ken,the attendant,took time to explain to me the perfect 35mm film to use for my yashica MF2 ..
+        very grateful to be dealing with experts."
         title="Good customer service"
       ></v-card>
-
-      <div class="text-center text-caption">Using Props Only</div>
     </v-col>
 
-    <v-col cols="12" md="4">
-      <v-card>
-        <template v-slot:title>
-          Loved them!
-        </template>
+    <v-col cols="12" md="12">
+      <v-card
+        subtitle="@Ngambi58"
+        text="A lot different types of film cameras available from SLR's to the point and shoot ones would definitely recommend."
+        title="Loved them!"
+      ></v-card>
+    </v-col>
+  </v-col>
 
-        <template v-slot:subtitle>
-          @Ngambi58
-        </template>
-
-        <template v-slot:text>
-         A lot variety for sweet tooths like me would definitely recommend.
-        </template>
-      </v-card>
-
-      <div class="text-center text-caption">Using Slots Only</div>
+  <v-col>
+        <v-col cols="12" md="12">
+      <v-card
+        subtitle="@Taylor Kendi"
+        text="Ken,the attendant,took time to explain to me the perfect 35mm film to use for my yashica MF2 ..
+        very grateful to be dealing with experts."
+        title="Good customer service"
+      ></v-card>
     </v-col>
 
-    <v-col cols="12" md="4">
-      <v-card>
-        <v-card-item>
-          <v-card-title>Fast delivery</v-card-title>
-
-          <v-card-subtitle>@Playgirl254</v-card-subtitle>
-        </v-card-item>
-
-        <v-card-text>
-          Very fast and efficient delivery!
-        </v-card-text>
-      </v-card>
-
-      <div class="text-center text-caption">Using Markup Only</div>
+    <v-col cols="12" md="12">
+      <v-card
+        subtitle="@Ngambi58"
+        text="A lot different types of film cameras available from SLR's to the point and shoot ones would definitely recommend."
+        title="Loved them!"
+      ></v-card>
     </v-col>
-  </v-row>
+  </v-col>
+   
 
 </template>

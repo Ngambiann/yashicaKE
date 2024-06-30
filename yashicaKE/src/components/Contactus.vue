@@ -2,7 +2,7 @@
     <h1>Contact Us</h1>
     <v-divider :thickness="10"></v-divider>
     <p>
-Welcome to our Camel Candy Shop, where we bring you the sweetest treats from around the world! We'd love to hear from you and help answer any questions you may have about our candies, our store, or our app. Please feel free to reach out to us using the contact information below, and we'll be happy to assist you.<br>
+Welcome to our film camera Shop, where we bring you all types of film cameras. We'd love to hear from you and help answer any questions you may have about our cameras, film photography, or our app. Please feel free to reach out to us using the contact information below, and we'll be happy to assist you.<br>
 <div>
  Email: [info@YashicaKEshop.com](mailto:info@YashicaKEshop.com)<br>
 Phone: 1-800-YASHIKA-KE (1-800-226-3526)<br>
