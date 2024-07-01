@@ -44,6 +44,13 @@
             }
         ],
       }
+   },
+   methods() {
+    //we shall add our functions here
+  },
+
+  computed(){
+    //we use this when working with forms
   }
 }
 </script>

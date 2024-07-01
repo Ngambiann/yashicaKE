@@ -4,7 +4,7 @@
       class="mx-auto"
       width="800">
       <v-card-text class="bg-surface-light pt-4"> </v-card-text>
-        <v-card-title>Cart 
+        <v-card-title>cart 
           {{ total }}
           <v-btn color="deep-orange-lighten-1"
           text="Checkout"
@@ -34,7 +34,7 @@
     <v-divider class="mx-4 mb-1"></v-divider>
     <v-card-actions>
       <v-btn
-        color="deep-purple-lighten-2"
+        color="deep-black-lighten-2"
         text="Remove"
         block
         border
@@ -63,7 +63,7 @@
 
         computed: {
             ...mapGetters({
-               cartItems: 'cart'
+               cartItems: 'Cart'
             })
            },
     

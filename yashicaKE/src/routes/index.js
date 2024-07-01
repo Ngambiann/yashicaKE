@@ -2,9 +2,10 @@ import {createRouter,createWebHistory} from 'vue-router'
 
 import Homepage from "./../components/Homepage.vue"
 import Cameras from "./../components/Cameras.vue"
-import cart from "./../components/cart.vue"
-import ContactUs from "./../components/Contactus.vue"
-import AboutUs from "./../components/Aboutus.vue"
+import Cart from "./../components/Cart.vue"
+import Contactus from "./../components/Contactus.vue"
+import Aboutus from "./../components/Aboutus.vue"
+
 
 const routes = [
     {
@@ -18,19 +19,20 @@ const routes = [
         component: Cameras,
       },
       {
-        path: '/ContactUs',
-        name: 'ContactUs',
-        component: ContactUs,
+        path: '/Cart',
+        name: 'Cart',
+        component: Cart,
       },
       {
-        path: '/cart',
-        name: 'cart',
-        component: cart,
+        path: '/Contactus',
+        name: 'Contactus',
+        component: Contactus,
       },
+      
       {
-        path: '/AboutUs',
+        path: '/Aboutus',
         name: 'AboutUs',
-        component: AboutUs,
+        component: Aboutus,
       },
 ]
 const router = createRouter({
