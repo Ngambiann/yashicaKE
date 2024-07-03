@@ -11,34 +11,34 @@
           ></v-btn>
        
         <v-row>
-        <v-col cols="12" md="5"  v-for="product in cartItems" :key=product>
+        <v-col cols="12" md="5"  v-for="product in cartItems" :key=Cameras>
            <v-card
          class="mx-auto my-12" 
         max-width="374"
         >
     <v-img 
     height="250" 
-    :src="product.itemImage"
+    :src="Cameras.itemImage"
      cover
      ></v-img>
 
     <v-card-item>
-      <v-card-title>{{product.itemName}}</v-card-title>
+      <v-card-title>{{Cameras.itemName}}</v-card-title>
     </v-card-item>
 
     <v-card-text>
-      <div class="my-4 text-subtitle-1"> {{product.itemPrice}} </div>
-      <div> {{ product.description }} </div>
+      <div class="my-4 text-subtitle-1"> {{Cameras.itemPrice}} </div>
+      <div> {{ Cameras.description }} </div>
     </v-card-text>
 
     <v-divider class="mx-4 mb-1"></v-divider>
     <v-card-actions>
       <v-btn
-        color="deep-black-lighten-2"
+        color="deep-yellow-lighten-2"
         text="Remove"
         block
         border
-        @click="RemovefromCart(product)"
+        @click="RemovefromCart(Cameras)"
       ></v-btn>
     </v-card-actions>
   </v-card>
