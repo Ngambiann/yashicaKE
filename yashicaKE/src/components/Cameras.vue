@@ -138,14 +138,7 @@
             itemImage:'/images/adam-birkett-GD7VU0daiaQ-unsplash copy.jpg',
             description:'Among cheapest reliable kodak colour negative  film that works best in daylight or flash'
           },
-          {
-            itemNumber:12,
-            itemName:"Kodak Ultra Max 400",
-            itemPrice:"KES.6,000",
-            itemQuantity:15,
-            itemImage:'/images/daniel-hay-vdTpsMZEPz4-unsplash.jpg',
-            description:'Very reliable Colour negative film pefect for even well exposed night shoots'
-          }
+          
       ],
       total:0,
 
